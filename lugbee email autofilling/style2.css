@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Inter Tight", sans-serif;
+}
+.section_1 {
+  background-color: rgba(247, 179, 27, 255);
+  padding-bottom: 300px;
+}
+.section_2 {
+  background-color: rgba(222, 184, 135, 0.126);
+  margin-top: -270px;
+}
+.main_heading {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding-top: 100px;
+}
+.main_container {
+  margin-top: -200px;
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.388);
+}
+.main_container h1 {
+  text-align: center;
+}
+.second_heading {
+  padding: 30px;
+  background-color: rgba(13, 91, 133, 255);
+}
+.second_heading span:nth-child(1) {
+  color: white;
+}
+.second_heading span:nth-child(2) {
+  color: orange;
+}
+.bookingCon {
+  color: orange;
+  padding: 45px 80px 20px 80px;
+  text-align: center;
+}
+.second_container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.greetings {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.greetings p {
+  font-size: 22px;
+}
+.details {
+  justify-content: space-between;
+  border: 1px solid #0d5b85;
+  overflow: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.category {
+  float: left;
+}
+.category p {
+  padding: 10px;
+}
+.numeric {
+  float: right;
+}
+.numeric p {
+  padding: 10px;
+  font-weight: bold;
+}
+.numeric p:nth-child(1) {
+  color: orange;
+}
+.numeric p:nth-child(8) {
+  color: orange;
+}
+.steps {
+  padding-top: 20px;
+}
+.steps p {
+  padding: 15px;
+}
+.steps h5 {
+  font-size: 24px;
+}
+.note {
+  font-weight: bold;
+}
+.footer {
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+.footer p {
+  padding-bottom: 50px;
+}
+.footer_heading {
+  color: orange;
+}
+.footer span {
+  color: blue;
+  font-weight: bold;
+}
+.block {
+  padding: 50px;
+  background-color: rgba(13, 91, 133, 255);
+  margin-bottom: 10px;
+  margin-right: 459px;
+  margin-left: 459px;
+}
+.orange {
+  color: orange;
+}
+.bold {
+  font-weight: bold;
+  float: right;
+  margin-left: 50px;
+}
+
+/* =========MEDIA QUERIES=========== */
+@media only screen and (max-width: 600px) {
+  .block {
+    background-color: lightblue;
+    width: 100%;
+  }
+}

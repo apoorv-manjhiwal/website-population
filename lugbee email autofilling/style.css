@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.section1 {
+  padding: 100px;
+  background-color: orange;
+}
+.hspanone {
+  font-size: 50px;
+  color: white;
+}
+.hspantwo {
+  font-size: 50px;
+  color: blue;
+}
+.container {
+  border: 1px solid;
+  width: 600px;
+  font-size: 20px;
+  margin-top: -80px;
+  margin-left: 470px;
+  background-color: white;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.388);
+}
+.box {
+  padding: 20px;
+}
+input {
+  margin-left: 10px;
+}
+span {
+  margin-left: 20px;
+  color: red;
+}
+.output {
+  width: 600px;
+  padding: 20px;
+  font-size: 20px;
+  margin: auto;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+.submit {
+  background-color: black;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  margin-left: 43%;
+  margin-top: 20px;
+  width: 200px;
+  font-size: 20px;
+}
+.submit:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.am {
+  font-size: 16px;
+  color: black;
+}
+span {
+  font-size: 16px;
+}
+
+/* ==========MEDIA QUERIES========== */
+@media only screen and (max-width: 1532px) {
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+}

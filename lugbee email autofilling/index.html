@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>form display</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&family=Lato:ital,wght@0,300;0,400;1,300&family=Open+Sans:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="section1" id="section1"><h1 class="heading"><span class="hspanone">Confirm Your</span><span class="hspantwo">Booking</span></h1></div>
+    <form  id="myform" action="email.html">
+     <div class="section2">
+      <div class="container">
+        <div class="box">
+          Customer Name: <input type="text" id="name" class="input" autocomplete="off" placeholder="Enter Your Name">
+        </div><span id="sname"></span>
+        <div class="box">
+          Number of bags: <input type="text" id="bags" class="input" autocomplete="off" placeholder="Enter Number Of Bags">
+        </div><span id="sbags"></span>
+        <div class="box">
+          Store Name and Location: <input type="text" id="location" class="input" autocomplete="off" placeholder="Enter nearest store location">
+        </div><span id="slocation"></span>
+        <div class="box">
+          <label for="appt">Drop off Time:</label>
+          <input type="time" id="drop" name="appt"><span id="sdrop"></span>
+        </div>
+        <div class="box">
+          <label for="appt">Pick up Time:</label>
+          <input type="time" id="pick" name="appt"><span id="spick"></span>
+        </div>
+          <div class="box">
+          Duration: <input type="text" id="duration" class="input" autocomplete="off" placeholder="input the duration of your visit">
+        </div><span id="sduration"></span>
+        <div class="box">
+          Registered Mobile Number: <input type="text" id="mobile" class="input" maxlength="10" autocomplete="off" placeholder="enter your registered mobile number" onkeypress="return onlyNumberKey(event)">
+        </div><span id="smobile"></span>
+        <div class="box">
+          Registered Email Address: <input type="text" id="email" class="input" autocomplete="off" placeholder="enter your registered email address">
+        </div><span id="semail"></span>
+        </div>
+      </div>
+     </div>
+      <button type="submit" id="submit_btn" class="submit">
+        submit form
+      </button>
+    </form>
+       <script src="script.js"></script>
+  </body>
+</html>
